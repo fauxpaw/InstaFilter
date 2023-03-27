@@ -36,19 +36,22 @@ struct ContentView: View {
                 }
                 
                 HStack {
-                    Button("Change fitler") {
-                        // change filter
-                    }
+                    Button("Change fitler", action: changeFilter)
                     Spacer()
-                    
-                    Button("Save image") {
-                        // save the picture
-                    }
+                    Button("Save image", action: saveImage)
                 }
             }
             .padding([.horizontal, .bottom])
             .navigationTitle("InstaFilter")
         }
+    }
+    
+    func changeFilter() {
+        
+    }
+    
+    func saveImage() {
+        
     }
 }
 
