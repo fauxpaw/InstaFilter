@@ -11,7 +11,7 @@
 		4C08824029D2230B00F903EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C08823F29D2230B00F903EB /* ContentView.swift */; };
 		4C08824229D2230C00F903EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C08824129D2230C00F903EB /* Assets.xcassets */; };
 		4C08824529D2230C00F903EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C08824429D2230C00F903EB /* Preview Assets.xcassets */; };
-		4C08824C29D2237E00F903EB /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C08824B29D2237E00F903EB /* ImagePickerView.swift */; };
+		4C08824C29D2237E00F903EB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C08824B29D2237E00F903EB /* ImagePicker.swift */; };
 		4C08824E29D22EA300F903EB /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C08824D29D22EA300F903EB /* ImageSaver.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,7 +21,7 @@
 		4C08823F29D2230B00F903EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C08824129D2230C00F903EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C08824429D2230C00F903EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4C08824B29D2237E00F903EB /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		4C08824B29D2237E00F903EB /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		4C08824D29D22EA300F903EB /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +58,7 @@
 				4C08823D29D2230B00F903EB /* InstaFilterApp.swift */,
 				4C08823F29D2230B00F903EB /* ContentView.swift */,
 				4C08824D29D22EA300F903EB /* ImageSaver.swift */,
-				4C08824B29D2237E00F903EB /* ImagePickerView.swift */,
+				4C08824B29D2237E00F903EB /* ImagePicker.swift */,
 				4C08824129D2230C00F903EB /* Assets.xcassets */,
 				4C08824329D2230C00F903EB /* Preview Content */,
 			);
@@ -144,7 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C08824029D2230B00F903EB /* ContentView.swift in Sources */,
-				4C08824C29D2237E00F903EB /* ImagePickerView.swift in Sources */,
+				4C08824C29D2237E00F903EB /* ImagePicker.swift in Sources */,
 				4C08823E29D2230B00F903EB /* InstaFilterApp.swift in Sources */,
 				4C08824E29D22EA300F903EB /* ImageSaver.swift in Sources */,
 			);
